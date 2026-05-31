@@ -1,26 +1,173 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: #080808;
+  --color-amber: #F5A623;
+  --color-cream: #F0EDE8;
+  --color-muted: #6B6865;
+  --color-border: #1A1A18;
+  --font-display: var(--font-syne);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: #080808;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #080808;
+  color: #F0EDE8;
+  overflow-x: hidden;
+  font-family: var(--font-jetbrains), 'Courier New', monospace;
+}
+
+::selection {
+  background: #F5A623;
+  color: #080808;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: #F5A623;
+}
+
+/* Grain animation */
+@keyframes grain {
+  0%,
+  100% { transform: translate(0, 0) }
+  10%   { transform: translate(-5%, -10%) }
+  20%   { transform: translate(-15%, 5%) }
+  30%   { transform: translate(7%, -25%) }
+  40%   { transform: translate(-5%, 25%) }
+  50%   { transform: translate(-15%, 10%) }
+  60%   { transform: translate(15%, 0%) }
+  70%   { transform: translate(0%, 15%) }
+  80%   { transform: translate(3%, 35%) }
+  90%   { transform: translate(-10%, 10%) }
+}
+
+.animate-grain {
+  animation: grain 8s steps(10) infinite;
+}
+
+/* Ticker animation */
+@keyframes ticker {
+  from { transform: translateX(0) }
+  to   { transform: translateX(-50%) }
+}
+
+.animate-ticker {
+  animation: ticker 24s linear infinite;
+}
+
+/* Typography utility */
+.font-display {
+  font-family: var(--font-syne), 'Arial Black', sans-serif;
+}
+
+.font-mono-body {
+  font-family: var(--font-jetbrains), 'Courier New', monospace;
+}
+
+/* ─── Pearl iridescent color system ─────────────────────────────── */
+
+@keyframes pearl-shift {
+  0%, 100% { background-position: 0% 50% }
+  50%       { background-position: 100% 50% }
+}
+
+@keyframes pearl-border-shift {
+  0%, 100% { background-position: 50% 0% }
+  50%       { background-position: 50% 100% }
+}
+
+/* Gradient text — clip to letterforms, glow via drop-shadow */
+.pearl-text {
+  background: linear-gradient(
+    110deg,
+    #F8F4EE 0%,
+    #E8E0D5 30%,
+    #F0EBE3 55%,
+    #E8E0D5 75%,
+    #F8F4EE 100%
+  );
+  background-size: 250% 250%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: pearl-shift 14s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px rgba(248, 244, 238, 0.22));
+}
+
+/* Gradient background for inline dash elements */
+.pearl-dash {
+  background: linear-gradient(90deg, #F8F4EE 0%, #E8E0D5 45%, #F0EBE3 100%);
+  background-size: 250% 100%;
+  animation: pearl-shift 14s ease-in-out infinite;
+  box-shadow: 0 0 6px 0 rgba(248, 244, 238, 0.2);
+}
+
+/* 1px gradient left border rendered as a pseudo-element */
+.pearl-border-left {
+  position: relative;
+}
+
+.pearl-border-left::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #F8F4EE 18%,
+    #E8E0D5 50%,
+    #F0EBE3 82%,
+    transparent 100%
+  );
+  background-size: 100% 250%;
+  animation: pearl-border-shift 14s ease-in-out infinite;
+  box-shadow:
+    0 0 14px 1px rgba(248, 244, 238, 0.16),
+    3px 0 10px 0 rgba(240, 235, 227, 0.07);
+}
+
+/* ─────────────────────────────────────────────────────────────────── */
+
+/* Horizontal rule */
+.rule {
+  border: none;
+  border-top: 1px solid #1A1A18;
+}
+
+/* Amber underline effect */
+.amber-underline {
+  position: relative;
+}
+.amber-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #F5A623;
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.amber-underline:hover::after {
+  width: 100%;
 }
