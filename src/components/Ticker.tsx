@@ -6,7 +6,7 @@ const items = [
   "Claude Niche Site OS",
   "Claude Video OS",
   "Complete Builder Bundle",
-  "7 skill files included",
+  "5 + 2 skill files",
   "AI-native workflows",
   "Built for speed",
   "No fluff. Just systems.",

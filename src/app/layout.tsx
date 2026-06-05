@@ -20,13 +20,17 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "outinthecode — Don't Get Left Out in the Code",
   description:
-    "AI-built tools, skills, and systems for digital builders who move fast.",
+    "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
   openGraph: {
     title: "outinthecode",
     description:
-      "AI-built tools, skills, and systems for digital builders who move fast.",
+      "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
     url: "https://outinthecode.com",
     siteName: "outinthecode",
+  },
+  twitter: {
+    description:
+      "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
   },
 }
 
