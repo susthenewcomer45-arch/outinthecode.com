@@ -43,10 +43,11 @@ const products = [
     name: "Complete Builder Bundle",
     price: "$269",
     description:
-      "Everything. All 7 skills, both systems, every bonus file. One payment, permanent access.",
+      "Everything. All 7 skills, the full Auto-Publisher pipeline, every bonus file. One payment, permanent access.",
     features: [
       "All 5 Niche Site OS skills",
       "Both Video OS skills",
+      "Claude Auto-Publisher OS pipeline",
       "Prompt cheat sheet",
       "Full documentation",
       "All future updates",
@@ -54,6 +55,24 @@ const products = [
     href: "https://outinthecode.gumroad.com/l/complete-builder-bundle",
     label: "Best Value",
     featured: true,
+  },
+  {
+    index: "04",
+    name: "Claude Auto-Publisher OS",
+    price: "$147",
+    description:
+      "A complete automated blog publishing pipeline. Set it up once and your site publishes fresh AI-written content every weekday. Without touching a thing.",
+    features: [
+      "Core automation script",
+      "GitHub Actions scheduler",
+      "Google Sheets content calendar",
+      "Plain English setup guide",
+      "Claude Code skill file",
+      ".env.example with all settings documented",
+    ],
+    href: "https://outinthecode.gumroad.com/l/auto-publisher-os",
+    label: "The Publishing Engine",
+    featured: false,
   },
 ]
 
