@@ -3,8 +3,6 @@
 import { useRef, useState } from "react"
 import { motion, useInView } from "framer-motion"
 
-const GHL_WEBHOOK_URL = "https://YOUR_GHL_WEBHOOK_URL_HERE"
-
 export function EmailCapture() {
   const [email, setEmail] = useState("")
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
@@ -18,10 +16,12 @@ export function EmailCapture() {
     setStatus("loading")
 
     try {
-      const res = await fetch(GHL_WEBHOOK_URL, {
+      const res = await fetch("https://api.kit.com/v4/forms/9485311/subscribers", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email_address: email }),
       })
 
       if (res.ok) {
