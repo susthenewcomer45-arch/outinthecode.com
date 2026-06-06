@@ -20,6 +20,7 @@ export function EmailCapture() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_KIT_API_KEY}`,
         },
         body: JSON.stringify({ email_address: email }),
       })
