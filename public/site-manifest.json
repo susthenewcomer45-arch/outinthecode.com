@@ -1,0 +1,53 @@
+{
+  "site": {
+    "name": "outinthecode",
+    "url": "https://outinthecode.com",
+    "description": "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+    "tagline": "Don't Get Left Out In The Code",
+    "owner": "Jesus Gonzalez",
+    "contact": "hello@outinthecode.com",
+    "category": "Digital Products / AI Tools",
+    "audience": "Aspiring entrepreneurs, content creators, small business owners"
+  },
+  "products": [
+    {
+      "name": "Claude Niche Site OS",
+      "price": 197,
+      "currency": "USD",
+      "files": 5,
+      "description": "5 skill files that automatically build, blog, rank, and monetize a niche site.",
+      "url": "https://outinthecode.gumroad.com/l/niche-site-os"
+    },
+    {
+      "name": "Claude Video OS",
+      "price": 97,
+      "currency": "USD",
+      "files": 2,
+      "description": "2 skill files that render cinematic AI videos inside Claude Code.",
+      "url": "https://outinthecode.gumroad.com/l/claude-video-os"
+    },
+    {
+      "name": "Claude Auto-Publisher OS",
+      "price": 147,
+      "currency": "USD",
+      "files": 6,
+      "description": "Complete automated blog publishing pipeline.",
+      "url": "https://outinthecode.gumroad.com/l/auto-publisher-os"
+    },
+    {
+      "name": "Complete Builder Bundle",
+      "price": 269,
+      "currency": "USD",
+      "files": 13,
+      "description": "Every skill file, both systems, every bonus file.",
+      "url": "https://outinthecode.gumroad.com/l/complete-builder-bundle"
+    }
+  ],
+  "pages": {
+    "home": "https://outinthecode.com",
+    "blog": "https://outinthecode.com/blog",
+    "sitemap": "https://outinthecode.com/sitemap.xml",
+    "llms": "https://outinthecode.com/llms.txt",
+    "agents": "https://outinthecode.com/agents.md"
+  }
+}

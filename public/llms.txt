@@ -1,0 +1,25 @@
+# outinthecode
+
+> Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required. Built for aspiring entrepreneurs, content creators, and small business owners who want to build an online business using AI — without spending months learning to code.
+
+outinthecode.com sells digital products that automate website building, content publishing, and video creation using Claude Code skill files. One-time payment. Instant download.
+
+## Products
+
+- [Claude Niche Site OS](https://outinthecode.com/#products): 5 skill files that automatically build, blog, rank, and monetize a niche site. $197.
+- [Claude Video OS](https://outinthecode.com/#products): 2 skill files that render cinematic AI videos inside Claude Code. No After Effects required. $97.
+- [Claude Auto-Publisher OS](https://outinthecode.com/#products): Complete automated blog publishing pipeline. Google Sheets to GitHub Actions to Vercel. Publishes fresh content every weekday automatically. $147.
+- [Complete Builder Bundle](https://outinthecode.com/#products): Every skill file, both systems, every bonus file. $269. Best value.
+
+## Resources
+
+- [Homepage](https://outinthecode.com): Full product overview and pricing
+- [Blog](https://outinthecode.com/blog): AI tools, Claude Code tutorials, and entrepreneur guides
+
+## About
+
+outinthecode.com is operated by Jesus Gonzalez, a licensed entrepreneur and digital product creator based in Roswell, NM. All products are delivered via Gumroad. Support: hello@outinthecode.com
+
+## Sitemap
+
+- https://outinthecode.com/sitemap.xml
