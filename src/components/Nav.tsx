@@ -24,12 +24,12 @@ export function Nav() {
       }`}
     >
       {/* Logo */}
-      <a
-        href="#"
-        className="font-display text-sm font-bold uppercase tracking-[0.2em] text-[#F0EDE8]"
-        style={{ fontFamily: "var(--font-syne)" }}
-      >
-        out<span className="text-[#F5A623]">in</span>thecode
+      <a href="#">
+        <img
+          src="/logo.png"
+          alt="outinthecode"
+          style={{ height: "40px", width: "auto" }}
+        />
       </a>
 
       {/* CTA */}

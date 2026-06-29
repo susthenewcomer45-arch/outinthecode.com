@@ -74,6 +74,17 @@ const products = [
     label: "The Publishing Engine",
     featured: false,
   },
+  {
+    index: "05",
+    name: "Claude AI Lens Skill",
+    price: "$249",
+    description:
+      "Make your site machine-readable for AI assistants. Get found by ChatGPT, Perplexity, and Gemini.",
+    features: ["llms.txt", "agents.md", "site-manifest.json", "Schema markup"],
+    href: "https://outinthecode.gumroad.com/l/claude-ai-lens-skill",
+    label: "The AI Lens",
+    featured: false,
+  },
 ]
 
 function ProductRow({
@@ -196,7 +207,7 @@ export function Products() {
           className="text-[10px] uppercase tracking-[0.3em] text-[#6B6865]"
           style={{ fontFamily: "var(--font-jetbrains)" }}
         >
-          02 / 04
+          02 / 05
         </motion.span>
       </div>
 
