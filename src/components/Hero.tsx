@@ -134,8 +134,8 @@ export function Hero() {
             className="text-sm leading-relaxed text-[#6B6865] md:text-right"
             style={{ fontFamily: "var(--font-jetbrains)" }}
           >
-            AI-built tools, skills, and systems for digital builders who move
-            fast.
+            Stop rebuilding from scratch. Drop in a skill file, type one
+            prompt, and your site runs itself.
           </motion.p>
 
           <motion.div variants={fadeUpVariants}>

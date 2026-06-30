@@ -10,7 +10,7 @@ const products = [
     name: "Claude Niche Site OS",
     price: "$197",
     description:
-      "5 battle-tested Claude skill files that build, blog, rank and monetize your niche site automatically.",
+      "5 battle-tested skill files that eliminate the setup grind. Your site builds itself, blogs itself, ranks itself, and monetizes itself. No prompt engineering. No rework.",
     features: [
       "Website Authority Builder",
       "SEO Schema Utilities",
@@ -28,7 +28,7 @@ const products = [
     name: "Claude Video OS",
     price: "$97",
     description:
-      "Render cinematic AI videos inside Claude Code. No After Effects. No experience needed.",
+      "Render cinematic AI videos inside Claude Code without touching After Effects or learning motion design. Drop it in, describe your scene, export and post.",
     features: [
       "Remotion Component Library",
       "Remotion Documentary Builder",
@@ -43,7 +43,7 @@ const products = [
     name: "Complete Builder Bundle",
     price: "$269",
     description:
-      "Everything. All 7 skills, the full Auto-Publisher pipeline, every bonus file. One payment, permanent access.",
+      "Every skill file, every system, every bonus. One payment covers the full stack — niche site, video, and automated publishing pipeline. No rebuilding from zero on your next project.",
     features: [
       "All 5 Niche Site OS skills",
       "Both Video OS skills",
@@ -61,7 +61,7 @@ const products = [
     name: "Claude Auto-Publisher OS",
     price: "$147",
     description:
-      "A complete automated blog publishing pipeline. Set it up once and your site publishes fresh AI-written content every weekday. Without touching a thing.",
+      "Set it up once. Your site publishes fresh AI-written content every weekday automatically — no sessions to manage, no prompts to re-enter, no context to rebuild. It just runs.",
     features: [
       "Core automation script",
       "GitHub Actions scheduler",
@@ -79,7 +79,7 @@ const products = [
     name: "Claude AI Lens Skill",
     price: "$249",
     description:
-      "Make your site machine-readable for AI assistants. Get found by ChatGPT, Perplexity, and Gemini.",
+      "Most websites are invisible to ChatGPT, Perplexity, and Gemini. This skill builds the machine-readable infrastructure that fixes that in 30 minutes. Buy once, use on every site you own.",
     features: ["llms.txt", "agents.md", "site-manifest.json", "Schema markup"],
     href: "https://outinthecode.gumroad.com/l/pdkdqt",
     label: "The AI Lens",
