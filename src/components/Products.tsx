@@ -70,7 +70,7 @@ const products = [
       "Claude Code skill file",
       ".env.example with all settings documented",
     ],
-    href: "https://outinthecode.gumroad.com/l/auto-publisher-os",
+    href: "https://outinthecode.gumroad.com/l/epwpiu",
     label: "The Publishing Engine",
     featured: false,
   },
@@ -81,7 +81,7 @@ const products = [
     description:
       "Make your site machine-readable for AI assistants. Get found by ChatGPT, Perplexity, and Gemini.",
     features: ["llms.txt", "agents.md", "site-manifest.json", "Schema markup"],
-    href: "https://outinthecode.gumroad.com/l/claude-ai-lens-skill",
+    href: "https://outinthecode.gumroad.com/l/pdkdqt",
     label: "The AI Lens",
     featured: false,
   },
