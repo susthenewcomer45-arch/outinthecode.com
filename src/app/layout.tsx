@@ -84,7 +84,7 @@ export default function RootLayout({
                         "url": "https://outinthecode.gumroad.com/l/niche-site-os",
                         "offers": {
                           "@type": "Offer",
-                          "price": "197",
+                          "price": "129",
                           "priceCurrency": "USD",
                           "availability": "https://schema.org/InStock"
                         }
@@ -100,7 +100,7 @@ export default function RootLayout({
                         "url": "https://outinthecode.gumroad.com/l/claude-video-os",
                         "offers": {
                           "@type": "Offer",
-                          "price": "97",
+                          "price": "39",
                           "priceCurrency": "USD",
                           "availability": "https://schema.org/InStock"
                         }
@@ -132,7 +132,23 @@ export default function RootLayout({
                         "url": "https://outinthecode.gumroad.com/l/complete-builder-bundle",
                         "offers": {
                           "@type": "Offer",
-                          "price": "269",
+                          "price": "229",
+                          "priceCurrency": "USD",
+                          "availability": "https://schema.org/InStock"
+                        }
+                      }
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 5,
+                      "item": {
+                        "@type": "Product",
+                        "name": "Claude AI Lens Skill",
+                        "description": "Machine-readable website infrastructure for AI assistants: llms.txt, agents.md, site-manifest.json, and schema markup.",
+                        "url": "https://outinthecode.gumroad.com/l/pdkdqt",
+                        "offers": {
+                          "@type": "Offer",
+                          "price": "59",
                           "priceCurrency": "USD",
                           "availability": "https://schema.org/InStock"
                         }

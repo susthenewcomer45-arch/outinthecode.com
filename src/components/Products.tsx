@@ -8,7 +8,7 @@ const products = [
   {
     index: "01",
     name: "Claude Niche Site OS",
-    price: "$197",
+    price: "$129",
     description:
       "5 battle-tested skill files that eliminate the setup grind. Your site builds itself, blogs itself, ranks itself, and monetizes itself. No prompt engineering. No rework.",
     features: [
@@ -26,7 +26,7 @@ const products = [
   {
     index: "02",
     name: "Claude Video OS",
-    price: "$97",
+    price: "$39",
     description:
       "Render cinematic AI videos inside Claude Code without touching After Effects or learning motion design. Drop it in, describe your scene, export and post.",
     features: [
@@ -41,13 +41,14 @@ const products = [
   {
     index: "03",
     name: "Complete Builder Bundle",
-    price: "$269",
+    price: "$229",
     description:
-      "Every skill file, every system, every bonus. One payment covers the full stack — niche site, video, and automated publishing pipeline. No rebuilding from zero on your next project.",
+      "The complete automation stack: build, video, and publish. One payment covers Niche Site OS, Video OS, and Auto-Publisher OS — not AI Lens. No rebuilding from zero on your next project.",
     features: [
-      "All 5 Niche Site OS skills",
-      "Both Video OS skills",
+      "Claude Niche Site OS (all 5 skills)",
+      "Claude Video OS (both skills)",
       "Claude Auto-Publisher OS pipeline",
+      "Does not include AI Lens Skill",
       "Prompt cheat sheet",
       "Full documentation",
       "All future updates",
@@ -61,7 +62,7 @@ const products = [
     name: "Claude Auto-Publisher OS",
     price: "$147",
     description:
-      "Set it up once. Your site publishes fresh AI-written content every weekday automatically — no sessions to manage, no prompts to re-enter, no context to rebuild. It just runs.",
+      "Set it up once. Your site publishes fresh AI-written content every weekday automatically — no sessions to manage, no prompts to re-enter, no context to rebuild. This is the exact system running the daily blog on nocallquotenow.com — real, not a demo.",
     features: [
       "Core automation script",
       "GitHub Actions scheduler",
@@ -77,9 +78,9 @@ const products = [
   {
     index: "05",
     name: "Claude AI Lens Skill",
-    price: "$249",
+    price: "$59",
     description:
-      "Most websites are invisible to ChatGPT, Perplexity, and Gemini. This skill builds the machine-readable infrastructure that fixes that in 30 minutes. Buy once, use on every site you own.",
+      "Most websites are invisible to ChatGPT, Perplexity, and Gemini. This skill builds the machine-readable infrastructure that fixes that in 30 minutes. Already deployed across every site in the stack, including outinthecode.com — live infrastructure, not theoretical. Buy once, use on every site you own.",
     features: ["llms.txt", "agents.md", "site-manifest.json", "Schema markup"],
     href: "https://outinthecode.gumroad.com/l/pdkdqt",
     label: "The AI Lens",
