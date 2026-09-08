@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Syne, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { GrainOverlay } from "@/components/GrainOverlay"
+import Script from "next/script"
 
 const syne = Syne({
   variable: "--font-syne",
@@ -41,6 +42,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${syne.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <Script
+          id="adsense"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4437016471828719"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"
