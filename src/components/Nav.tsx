@@ -3,6 +3,12 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 
+const links = [
+  { href: "/about", label: "About" },
+  { href: "/privacy-policy", label: "Privacy" },
+  { href: "/contact", label: "Contact" },
+]
+
 export function Nav() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -23,7 +29,6 @@ export function Nav() {
           : "bg-transparent"
       }`}
     >
-      {/* Logo */}
       <a href="/">
         <img
           src="/logo.png"
@@ -32,15 +37,17 @@ export function Nav() {
         />
       </a>
 
-      {/* Links + CTA */}
-      <div className="flex items-center gap-6">
-        <a
-          href="/about"
-          className="text-[11px] uppercase tracking-[0.2em] text-[#6B6865] transition-colors duration-300 hover:text-[#F0EDE8]"
-          style={{ fontFamily: "var(--font-jetbrains)" }}
-        >
-          About
-        </a>
+      <div className="flex items-center gap-4 md:gap-6">
+        {links.map((link) => (
+          <a
+            key={link.href}
+            href={link.href}
+            className="hidden text-[11px] uppercase tracking-[0.2em] text-[#6B6865] transition-colors duration-300 hover:text-[#F0EDE8] sm:inline"
+            style={{ fontFamily: "var(--font-jetbrains)" }}
+          >
+            {link.label}
+          </a>
+        ))}
         <a
           href="/#products"
           className="group relative overflow-hidden border border-[#F5A623] px-5 py-2 text-xs uppercase tracking-[0.2em] text-[#F5A623] transition-colors duration-300 hover:bg-[#F5A623] hover:text-[#080808]"
