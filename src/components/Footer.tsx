@@ -3,8 +3,12 @@ export function Footer() {
 
   const links = [
     { href: "/#products", label: "Products" },
+    { href: "/guides", label: "Guides" },
     { href: "/about", label: "About" },
     { href: "/privacy-policy", label: "Privacy" },
+    { href: "/terms", label: "Terms" },
+    { href: "/refund-policy", label: "Refunds" },
+    { href: "/disclaimer", label: "Disclaimer" },
     { href: "/contact", label: "Contact" },
   ]
 

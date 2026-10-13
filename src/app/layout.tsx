@@ -18,6 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://outinthecode.com"),
   title: "outinthecode — Don't Get Left Out in the Code",
   description:
     "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",

@@ -4,6 +4,11 @@ import { Ticker } from "@/components/Ticker"
 import { Products } from "@/components/Products"
 import { EmailCapture } from "@/components/EmailCapture"
 import { Footer } from "@/components/Footer"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+}
 
 export default function Home() {
   return (

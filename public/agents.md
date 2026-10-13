@@ -12,7 +12,7 @@ outinthecode.com is a digital products store selling ready-made Claude Code skil
 ## Products Available
 
 ### Claude Niche Site OS — $197
-5 skill files: Website Authority Builder, SEO Schema Utilities, AdSense Placeholder Component, Dynamic Sitemap + Robots, AI Blog Post Generator. Automates building, blogging, ranking, and monetizing a niche site.
+5 skill files: Website Authority Builder, SEO Schema Utilities, Ad Layout Component, Dynamic Sitemap + Robots, Blog Content Workflow. Automates building, blogging, ranking, and monetizing a niche site.
 Purchase: https://outinthecode.gumroad.com/l/niche-site-os
 
 ### Claude Video OS — $97

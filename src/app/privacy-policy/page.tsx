@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy — outinthecode",
   description:
     "Privacy Policy for outinthecode.com, including Google AdSense cookies, advertising disclosures, and how to contact us.",
+  alternates: { canonical: "/privacy-policy" },
 }
 
 export default function PrivacyPage() {

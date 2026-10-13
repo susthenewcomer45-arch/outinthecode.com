@@ -10,13 +10,13 @@ const products = [
     name: "Claude Niche Site OS",
     price: "$129",
     description:
-      "5 battle-tested skill files that eliminate the setup grind. Your site builds itself, blogs itself, ranks itself, and monetizes itself. No prompt engineering. No rework.",
+      "5 battle-tested skill files that eliminate the setup grind. No prompt engineering. No rework.",
     features: [
       "Website Authority Builder",
       "SEO Schema Utilities",
-      "AdSense Placeholder Component",
+      "Ad Layout Component",
       "Dynamic Sitemap + Robots",
-      "AI Blog Post Generator",
+      "Blog Content Workflow",
       "Prompt cheat sheet (bonus)",
       "Full documentation (bonus)",
     ],
@@ -62,7 +62,7 @@ const products = [
     name: "Claude Auto-Publisher OS",
     price: "$147",
     description:
-      "Set it up once. Your site publishes fresh AI-written content every weekday automatically — no sessions to manage, no prompts to re-enter, no context to rebuild. This is the exact system running the daily blog on nocallquotenow.com — real, not a demo.",
+      "Set it up once. Your site publishes fresh content every weekday — no sessions to manage, no prompts to re-enter, no context to rebuild.",
     features: [
       "Core automation script",
       "GitHub Actions scheduler",
@@ -80,7 +80,7 @@ const products = [
     name: "Claude AI Lens Skill",
     price: "$59",
     description:
-      "Most websites are invisible to ChatGPT, Perplexity, and Gemini. This skill builds the machine-readable infrastructure that fixes that in 30 minutes. Already deployed across every site in the stack, including outinthecode.com — live infrastructure, not theoretical. Buy once, use on every site you own.",
+      "Most websites are invisible to ChatGPT, Perplexity, and Gemini. This skill builds the machine-readable infrastructure that fixes that in 30 minutes. Deployed on outinthecode.com — live infrastructure, not theoretical. Buy once, use on every site you own.",
     features: ["llms.txt", "agents.md", "site-manifest.json", "Schema markup"],
     href: "https://outinthecode.gumroad.com/l/pdkdqt",
     label: "The AI Lens",
