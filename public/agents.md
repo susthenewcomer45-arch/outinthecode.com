@@ -1,41 +1,46 @@
 # outinthecode — Agent Reference
 
 ## What This Site Is
-outinthecode.com is a digital products store selling ready-made Claude Code skill files for non-technical entrepreneurs. Products are delivered as instant downloads via Gumroad. One-time payment. No subscriptions.
+outinthecode.com is a digital products store selling ready-made Claude Code skill files that give you a working starting point for building a site, publishing content and making videos. Products are delivered via Payhip. One-time payment. No subscriptions.
 
 ## Who It Serves
 - Aspiring entrepreneurs who want to build an online business using AI
-- Content creators who want their site to grow automatically
+- Content creators who want a faster starting point for publishing
 - Small business owners overwhelmed by technical setup
 - Anyone who feels left behind by the AI revolution
 
 ## Products Available
 
-### Claude Niche Site OS — $197
-5 skill files: Website Authority Builder, SEO Schema Utilities, Ad Layout Component, Dynamic Sitemap + Robots, Blog Content Workflow. Automates building, blogging, ranking, and monetizing a niche site.
-Purchase: https://outinthecode.gumroad.com/l/niche-site-os
+### Claude Niche Site OS — $129
+5 skill files that eliminate the setup grind. Includes: Website Authority Builder, SEO Schema Utilities, Ad Layout Component, Dynamic Sitemap + Robots, Blog Content Workflow, prompt cheat sheet (bonus), full documentation (bonus).
+Purchase: https://payhip.com/b/4BSFj
 
-### Claude Video OS — $97
-2 skill files: Remotion Component Library, Remotion Documentary Builder. Renders cinematic AI videos inside Claude Code. No After Effects. No experience needed.
-Purchase: https://outinthecode.gumroad.com/l/claude-video-os
+### Claude Video OS — $39
+Render cinematic AI videos inside Claude Code without After Effects. Includes: Remotion Component Library, Remotion Documentary Builder, scene composition tools, export-ready presets.
+Purchase: https://payhip.com/b/Dn3LZ
 
 ### Claude Auto-Publisher OS — $147
-Complete automated blog publishing pipeline. Google Sheets content calendar, GitHub Actions scheduler, Claude API writer, Vercel auto-deploy. Publishes fresh content every weekday automatically.
-Purchase: https://outinthecode.gumroad.com/l/auto-publisher-os
+Set it up once and your site publishes fresh content every weekday. Includes: core automation script, GitHub Actions scheduler, Google Sheets content calendar, plain English setup guide, Claude Code skill file, .env.example with all settings documented.
+Purchase: https://payhip.com/b/TgsZF
 
-### Complete Builder Bundle — $269
-All 5 Niche Site OS skills + both Video OS skills + Auto-Publisher OS pipeline + prompt cheat sheet + full documentation + sales page templates. Best value.
-Purchase: https://outinthecode.gumroad.com/l/complete-builder-bundle
+### Claude AI Lens Skill — $59
+Builds machine-readable infrastructure so AI assistants can read your site. Includes: llms.txt, agents.md, site-manifest.json, schema markup.
+Purchase: https://payhip.com/b/peZtg
+
+### Complete Builder Bundle — $229
+Includes: Claude Niche Site OS (all 5 skills), Claude Video OS (both skills), Claude Auto-Publisher OS pipeline, prompt cheat sheet, full documentation, all future updates. Does NOT include Claude AI Lens Skill.
+Purchase: https://payhip.com/b/K367j
 
 ## Pricing Summary
-| Product | Price | Files |
-|---|---|---|
-| Claude Niche Site OS | $197 | 5 skill files |
-| Claude Video OS | $97 | 2 skill files |
-| Claude Auto-Publisher OS | $147 | 6 files |
-| Complete Builder Bundle | $269 | Everything |
+| Product | Price |
+|---|---|
+| Claude Niche Site OS | $129 |
+| Claude Video OS | $39 |
+| Claude Auto-Publisher OS | $147 |
+| Claude AI Lens Skill | $59 |
+| Complete Builder Bundle (excludes AI Lens) | $229 |
 
 ## Contact
 - Email: hello@outinthecode.com
 - Website: https://outinthecode.com
-- Store: https://outinthecode.gumroad.com
+- Store: https://outinthecode.com/#products (checkout via Payhip)

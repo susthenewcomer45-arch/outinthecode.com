@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 // TODO(Jesus): This page deliberately states NO refund window or guarantee,
 // because none has been confirmed. Decide your actual policy (for example a
 // specific number of days, or no refunds after download) and update the
-// "Review of requests" section below. The checkout platform (Gumroad/Payhip)
+// "Review of requests" section below. The checkout platform (Payhip)
 // may also apply its own rules — confirm and mention them if so.
 export default function RefundPolicyPage() {
   return (

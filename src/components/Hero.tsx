@@ -134,8 +134,9 @@ export function Hero() {
             className="text-sm leading-relaxed text-[#6B6865] md:text-right"
             style={{ fontFamily: "var(--font-jetbrains)" }}
           >
-            Stop rebuilding from scratch. Drop in a skill file, type one
-            prompt, and your site runs itself.
+            Stop rebuilding from scratch. Ready-made skill files for Claude
+            Code give you a working starting point for building a site,
+            publishing content and making videos.
           </motion.p>
 
           <motion.div variants={fadeUpVariants}>
