@@ -21,17 +21,17 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://outinthecode.com"),
   title: "outinthecode — Don't Get Left Out in the Code",
   description:
-    "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+    "Ready-made skill files for Claude Code that give you a working starting point for building a site, publishing content and making videos.",
   openGraph: {
     title: "outinthecode",
     description:
-      "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+      "Ready-made skill files for Claude Code that give you a working starting point for building a site, publishing content and making videos.",
     url: "https://outinthecode.com",
     siteName: "outinthecode",
   },
   twitter: {
     description:
-      "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+      "Ready-made skill files for Claude Code that give you a working starting point for building a site, publishing content and making videos.",
   },
 }
 
@@ -65,7 +65,7 @@ export default function RootLayout({
                   "@id": "https://outinthecode.com/#website",
                   "url": "https://outinthecode.com",
                   "name": "outinthecode",
-                  "description": "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+                  "description": "Ready-made skill files for Claude Code that give you a working starting point for building a site, publishing content and making videos.",
                   "publisher": {
                     "@id": "https://outinthecode.com/#organization"
                   }
@@ -92,8 +92,8 @@ export default function RootLayout({
                       "item": {
                         "@type": "Product",
                         "name": "Claude Niche Site OS",
-                        "description": "5 skill files that automatically build, blog, rank, and monetize a niche site using Claude Code.",
-                        "url": "https://outinthecode.gumroad.com/l/niche-site-os",
+                        "description": "5 Claude Code skill files for setting up a niche site: Website Authority Builder, SEO Schema Utilities, Ad Layout Component, Dynamic Sitemap + Robots, and Blog Content Workflow.",
+                        "url": "https://payhip.com/b/4BSFj",
                         "offers": {
                           "@type": "Offer",
                           "price": "129",
@@ -109,7 +109,7 @@ export default function RootLayout({
                         "@type": "Product",
                         "name": "Claude Video OS",
                         "description": "2 skill files that render cinematic AI videos inside Claude Code. No After Effects required.",
-                        "url": "https://outinthecode.gumroad.com/l/claude-video-os",
+                        "url": "https://payhip.com/b/Dn3LZ",
                         "offers": {
                           "@type": "Offer",
                           "price": "39",
@@ -124,8 +124,8 @@ export default function RootLayout({
                       "item": {
                         "@type": "Product",
                         "name": "Claude Auto-Publisher OS",
-                        "description": "Complete automated blog publishing pipeline. Publishes fresh content every weekday automatically.",
-                        "url": "https://outinthecode.gumroad.com/l/auto-publisher-os",
+                        "description": "Blog publishing pipeline that publishes fresh content every weekday: core automation script, GitHub Actions scheduler, Google Sheets content calendar, and Claude Code skill file.",
+                        "url": "https://payhip.com/b/TgsZF",
                         "offers": {
                           "@type": "Offer",
                           "price": "147",
@@ -140,8 +140,8 @@ export default function RootLayout({
                       "item": {
                         "@type": "Product",
                         "name": "Complete Builder Bundle",
-                        "description": "Every skill file, both systems, every bonus file. Best value.",
-                        "url": "https://outinthecode.gumroad.com/l/complete-builder-bundle",
+                        "description": "Claude Niche Site OS, Claude Video OS, and Claude Auto-Publisher OS in one purchase, plus prompt cheat sheet, full documentation, and all future updates. Does not include AI Lens Skill.",
+                        "url": "https://payhip.com/b/K367j",
                         "offers": {
                           "@type": "Offer",
                           "price": "229",
@@ -157,7 +157,7 @@ export default function RootLayout({
                         "@type": "Product",
                         "name": "Claude AI Lens Skill",
                         "description": "Machine-readable website infrastructure for AI assistants: llms.txt, agents.md, site-manifest.json, and schema markup.",
-                        "url": "https://outinthecode.gumroad.com/l/pdkdqt",
+                        "url": "https://payhip.com/b/peZtg",
                         "offers": {
                           "@type": "Offer",
                           "price": "59",
