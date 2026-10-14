@@ -1,11 +1,13 @@
 import type { Metadata } from "next"
 import { Nav } from "@/components/Nav"
 import { Footer } from "@/components/Footer"
+import { ContactForm } from "@/components/ContactForm"
 
 export const metadata: Metadata = {
   title: "Contact — outinthecode",
   description:
-    "Contact Out In The Code. Email hello@outinthecode.com or privacy@outinthecode.com.",
+    "Contact Out In The Code. Use the contact form or email hello@outinthecode.com or privacy@outinthecode.com.",
+  alternates: { canonical: "/contact" },
 }
 
 export default function ContactPage() {
@@ -83,6 +85,8 @@ export default function ContactPage() {
               </a>
             </p>
           </div>
+
+          <ContactForm />
         </div>
       </section>
 

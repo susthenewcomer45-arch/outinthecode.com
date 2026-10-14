@@ -2,50 +2,105 @@
   "site": {
     "name": "outinthecode",
     "url": "https://outinthecode.com",
-    "description": "Ready-made AI skill files for Claude Code. Drop them in, type one prompt, and your site builds itself. No coding required.",
+    "description": "Ready-made skill files for Claude Code that give you a working starting point for building a site, publishing content and making videos.",
     "tagline": "Don't Get Left Out In The Code",
     "owner": "Jesus Gonzalez",
     "contact": "hello@outinthecode.com",
     "category": "Digital Products / AI Tools",
-    "audience": "Aspiring entrepreneurs, content creators, small business owners"
+    "audience": "Aspiring entrepreneurs, content creators, small business owners",
+    "checkout": "Payhip"
   },
   "products": [
     {
       "name": "Claude Niche Site OS",
-      "price": 197,
+      "price": 129,
       "currency": "USD",
-      "files": 5,
-      "description": "5 skill files that automatically build, blog, rank, and monetize a niche site.",
-      "url": "https://outinthecode.gumroad.com/l/niche-site-os"
+      "description": "5 skill files that eliminate the setup grind.",
+      "features": [
+        "Website Authority Builder",
+        "SEO Schema Utilities",
+        "Ad Layout Component",
+        "Dynamic Sitemap + Robots",
+        "Blog Content Workflow",
+        "Prompt cheat sheet (bonus)",
+        "Full documentation (bonus)"
+      ],
+      "url": "https://payhip.com/b/4BSFj"
     },
     {
       "name": "Claude Video OS",
-      "price": 97,
+      "price": 39,
       "currency": "USD",
-      "files": 2,
-      "description": "2 skill files that render cinematic AI videos inside Claude Code.",
-      "url": "https://outinthecode.gumroad.com/l/claude-video-os"
+      "description": "Render cinematic AI videos inside Claude Code without After Effects.",
+      "features": [
+        "Remotion Component Library",
+        "Remotion Documentary Builder",
+        "Scene composition tools",
+        "Export-ready presets"
+      ],
+      "url": "https://payhip.com/b/Dn3LZ"
     },
     {
       "name": "Claude Auto-Publisher OS",
       "price": 147,
       "currency": "USD",
-      "files": 6,
-      "description": "Complete automated blog publishing pipeline.",
-      "url": "https://outinthecode.gumroad.com/l/auto-publisher-os"
+      "description": "Set it up once and your site publishes fresh content every weekday.",
+      "features": [
+        "Core automation script",
+        "GitHub Actions scheduler",
+        "Google Sheets content calendar",
+        "Plain English setup guide",
+        "Claude Code skill file",
+        ".env.example with all settings documented"
+      ],
+      "url": "https://payhip.com/b/TgsZF"
+    },
+    {
+      "name": "Claude AI Lens Skill",
+      "price": 59,
+      "currency": "USD",
+      "description": "Builds machine-readable infrastructure so AI assistants can read your site.",
+      "features": [
+        "llms.txt",
+        "agents.md",
+        "site-manifest.json",
+        "Schema markup"
+      ],
+      "url": "https://payhip.com/b/peZtg"
     },
     {
       "name": "Complete Builder Bundle",
-      "price": 269,
+      "price": 229,
       "currency": "USD",
-      "files": 13,
-      "description": "Every skill file, both systems, every bonus file.",
-      "url": "https://outinthecode.gumroad.com/l/complete-builder-bundle"
+      "description": "Niche Site OS, Video OS, and Auto-Publisher OS in one purchase. Does not include AI Lens Skill.",
+      "features": [
+        "Claude Niche Site OS (all 5 skills)",
+        "Claude Video OS (both skills)",
+        "Claude Auto-Publisher OS pipeline",
+        "Prompt cheat sheet",
+        "Full documentation",
+        "All future updates"
+      ],
+      "url": "https://payhip.com/b/K367j",
+      "includes": [
+        "Claude Niche Site OS",
+        "Claude Video OS",
+        "Claude Auto-Publisher OS"
+      ],
+      "excludes": [
+        "Claude AI Lens Skill"
+      ]
     }
   ],
   "pages": {
     "home": "https://outinthecode.com",
-    "blog": "https://outinthecode.com/blog",
+    "guides": "https://outinthecode.com/guides",
+    "about": "https://outinthecode.com/about",
+    "contact": "https://outinthecode.com/contact",
+    "terms": "https://outinthecode.com/terms",
+    "refund-policy": "https://outinthecode.com/refund-policy",
+    "disclaimer": "https://outinthecode.com/disclaimer",
+    "privacy-policy": "https://outinthecode.com/privacy-policy",
     "sitemap": "https://outinthecode.com/sitemap.xml",
     "llms": "https://outinthecode.com/llms.txt",
     "agents": "https://outinthecode.com/agents.md"
